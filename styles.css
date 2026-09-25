@@ -44,7 +44,7 @@ header{position:sticky;top:0;z-index:100;background:rgba(2,7,13,.88);backdrop-fi
     radial-gradient(circle at 78% 24%,rgba(0,153,255,.20),transparent 25%),
     linear-gradient(180deg,#02070d 0%,#06111b 72%,#02070d 100%);
 }
-.hero:before{content:"";position:absolute;inset:0;background:url('assets/hero-city.webp') right center/auto 100% no-repeat;opacity:.55;mix-blend-mode:screen;pointer-events:none}
+.hero:before{content:"";position:absolute;inset:0;background:url('hero-city.webp') right center/auto 100% no-repeat;opacity:.55;mix-blend-mode:screen;pointer-events:none}
 .hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:.92fr 1.08fr;gap:40px;align-items:center}
 .hero h1{font-size:clamp(3rem,6.2vw,5.8rem);line-height:.91;letter-spacing:-.05em;margin:16px 0 18px}
 .hero p{font-size:1.05rem;line-height:1.68;color:#d1dbe2;max-width:620px}
@@ -93,7 +93,7 @@ header{position:sticky;top:0;z-index:100;background:rgba(2,7,13,.88);backdrop-fi
 .bi{width:44px;height:44px;border-radius:10px;display:grid;place-items:center;color:var(--cyan);background:#082037}
 
 .bottom-cta{position:relative;overflow:hidden;border-top:1px solid #143047;background:#05101a}
-.bottom-cta:before{content:"";position:absolute;inset:0;background:url('assets/bottom-city.webp') center/cover no-repeat;opacity:.68}
+.bottom-cta:before{content:"";position:absolute;inset:0;background:url('bottom-city.webp') center/cover no-repeat;opacity:.68}
 .bottom-inner{position:relative;z-index:2;display:grid;grid-template-columns:1fr 1fr 1fr;gap:30px;align-items:center;padding:46px 0}
 .bottom-inner h2{font-size:clamp(2rem,4vw,3.8rem);line-height:.96;margin:0}
 .bottom-inner p{color:#d6e0e6;line-height:1.65;margin:0}
@@ -142,7 +142,7 @@ footer{padding:26px 0;border-top:1px solid #123044;color:#8095a2;font-size:.8rem
 .case{background:#06111a;border:1px solid #15384e;border-radius:16px;overflow:hidden}
 .case .visual{height:260px;background:
  linear-gradient(145deg,rgba(0,234,255,.14),rgba(0,104,255,.08)),
- url('assets/showcase-devices.webp') center/cover no-repeat}
+ url('showcase-devices.webp') center/cover no-repeat}
 .case .copy{padding:22px}
 .case .copy p{color:#9daeb9;line-height:1.6}
 .price-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
@@ -233,7 +233,7 @@ textarea{min-height:150px;resize:vertical}
   background:#050d14;
 }
 .bottom-cta:before{
-  background:url('assets/preview-bottom.webp') center center/cover no-repeat !important;
+  background:url('preview-bottom.webp') center center/cover no-repeat !important;
   opacity:.82;
 }
 
